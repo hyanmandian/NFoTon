@@ -6,12 +6,13 @@
   "company": "fotontech.io",
   "developers": "Igor Lourenço, Allan Neto, Daniel Cunha",
   "license": "MIT",
-    "scripts": {
-      "prepare": "husky install"
-    },
+  "scripts": {
+    "prepare": "husky install"
+  },
   "workspaces": {
     "packages": [
-      "packages/*"
+      "apps/*",
+      "libs/*"
     ]
   },
   "devDependencies": {
@@ -20,4 +21,3 @@
     "husky": "^6.0.0"
   }
 }
-
