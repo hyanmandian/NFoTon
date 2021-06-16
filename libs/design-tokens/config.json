@@ -1,0 +1,27 @@
+{
+  "source": ["src/**/*.json"],
+  "platforms": {
+    "ts": {
+      "files": [
+        {
+          "format": "javascript/es6",
+          "options": { "showFileHeader": false },
+          "destination": "variables.ts"
+        }
+      ],
+      "buildPath": "src/",
+      "transformGroup": "js"
+    },
+    "css": {
+      "files": [
+        {
+          "format": "css/variables",
+          "options": { "showFileHeader": false },
+          "destination": "variables.css"
+        }
+      ],
+      "buildPath": "src/",
+      "transformGroup": "css"
+    }
+  }
+}

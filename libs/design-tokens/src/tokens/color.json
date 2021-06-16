@@ -1,0 +1,26 @@
+{
+  "color": {
+    "primary": {
+      "1": { "value": "#3772FF" },
+      "2": { "value": "#9757D7" },
+      "3": { "value": "#EF466F" },
+      "4": { "value": "#45B26B" }
+    },
+    "secondary": {
+      "1": { "value": "#4BC9F0" },
+      "2": { "value": "#E4D7CF" },
+      "3": { "value": "#FFD166" },
+      "4": { "value": "#CDB4DB" }
+    },
+    "neutrals": {
+      "1": { "value": "#141416" },
+      "2": { "value": "#23262F" },
+      "3": { "value": "#353945" },
+      "4": { "value": "#777E90" },
+      "5": { "value": "#B1B5C3" },
+      "6": { "value": "#E6E8EC" },
+      "7": { "value": "#F4F5F6" },
+      "8": { "value": "#FCFCFD" }
+    }
+  }
+}

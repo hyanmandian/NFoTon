@@ -1,0 +1,24 @@
+{
+  "name": "@nfoton/design-tokens",
+  "version": "1.0.0",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "style": "dist/index.cjs.css",
+  "license": "MIT",
+  "scripts": {
+    "build:types": "tsc",
+    "build:tokens": "style-dictionary build",
+    "build:cjs": "esbuild src/index.ts --bundle --format=cjs --minify --sourcemap --outfile=dist/index.cjs.js",
+    "build:esm": "esbuild src/index.ts --bundle --format=esm --minify --sourcemap --outfile=dist/index.esm.js",
+    "build": "yarn build:tokens && yarn build:types && yarn build:cjs && yarn build:esm"
+  },
+  "devDependencies": {
+    "esbuild": "^0.12.8",
+    "typescript": "^4.3.2",
+    "style-dictionary": "^3.0.1"
+  }
+}

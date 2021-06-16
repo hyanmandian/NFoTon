@@ -1,0 +1,10 @@
+{
+  "animation": {
+    "duration": {},
+    "function": {
+      "ease": {
+        "value": "ease"
+      }
+    }
+  }
+}

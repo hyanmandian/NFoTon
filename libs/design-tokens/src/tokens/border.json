@@ -1,0 +1,9 @@
+{
+  "border": {
+    "radius": {
+      "none": 0,
+      "pill": "20rem",
+      "circle": "50%"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "spacing": {
+    "sm": { "value": "8px" },
+    "md": { "value": "16px" },
+    "lg": { "value": "24px" },
+    "xl": { "value": "32px" },
+    "2xl": { "value": "40px" }
+  }
+}
